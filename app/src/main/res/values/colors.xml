@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#D33D3C</color>-->
+    <!--<color name="colorPrimaryDark">#D33D3C</color>-->
+    <!--<color name="colorAccent">#D33D3C</color>-->
+
+    <color name="colorPrimary">#13B9C7</color>
+    <color name="colorPrimaryDark">#13B9C7</color>
+    <color name="colorAccent">#13B9C7</color>
+
+
+    <color name="app_theme_color">#13B9C7</color>
+
+    <color name="shuqian_bg_read">#000000</color>
+
+    <!--87%white-->
+    <color name="color_de000000">#d0000000</color>
+    <!--87%black-->
+    <color name="color_8a000000">#8a000000</color>
+    <color name="color_6affffff">#6affffff</color>
+    <color name="transparent">#0000</color><!-- 透明 -->
+    <color name="transparent2">#8000</color><!-- 透明 -->
+
+    <color name="window_color">#f7f7f9</color>
+    <color name="color_logout_btn_c13535">#c13535</color>
+    <color name="color_484848">#484848</color>
+    <color name="color_header_393E46">#393E46</color>
+    <color name="color_item_selector">#EEEEEE</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_777777">#777777</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_eeeeee">#eeeeee</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="color_009587">#009587</color>
+    <color name="color_ff3939">#ff3939</color>
+    <color name="color_f8f8f9">#f8f8f9</color>
+    <color name="color_00b7ff">#00b7ff</color>
+    <color name="color_008FFF">#008FFF</color>
+    <color name="color_14559C">#14559C</color>
+    <color name="color_e0e0e0">#e0e0e0</color>
+
+    <color name="color_8D8D8D">#8D8D8D</color>
+    <color name="color_F4F5F7">#F4F5F7</color>
+
+
+    <color name="color_c7c7c7">#c7c7c7</color>
+    <color name="color_969696">#969696</color>
+    <color name="color_959595">#959595</color>
+    <color name="color_717171">#717171</color>
+    <color name="color_737373">#737373</color>
+    <color name="color_747474">#747474</color>
+    <color name="color_a5a5a5">#a5a5a5</color>
+    <color name="color_eaeaea">#eaeaea</color>
+    <color name="color_e3e3e3">#e3e3e3</color>
+    <color name="color_c3c3c3">#c3c3c3</color>
+    <color name="color_adadad">#adadad</color>
+    <color name="color_bad5fa">#bad5fa</color>
+
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_afafaf">#AFAFAF</color>
+    <color name="color_f99503">#F99503</color>
+    <color name="color_beedff">#beedff</color>
+    <color name="color_919191">#919191</color>
+    <color name="tab_color_true">#FA632D</color>
+
+    <color name="color_f7f7f9">#f7f7f9</color>
+
+    <color name="color_48A5FF">#48A5FF</color>
+    <color name="color_59CA66">#59CA66</color>
+    <color name="color_F56B62">#F56B62</color>
+    <color name="color_C8C8C8">#C8C8C8</color>
+    <color name="color_FFC46D">#FFC46D</color>
+    <color name="color_A98BF3">#A98BF3</color>
+
+
+
+    <integer-array name="gplus_colors">
+        <item>@color/colorAccent</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+
+    <color name="bg_title">#C31B23</color>
+
+    <color name="sep">#ccc</color>
+
+    <!-- cying 添加颜色-->
+    <color name="color_E62E3134">#E62E3134</color>
+    <color name="color_FF000000">#FF000000</color>
+    <color name="color_FF999999">#FF999999</color>
+    <color name="color_FF3096F7">#FF3096F7</color>
+    <color name="color_FF00A63F">#FF00A63F</color>
+    <color name="color_FFDFDFDF">#FFDFDFDF</color>
+    <color name="color_FF444444">#FF444444</color>
+    <color name="color_FF979797">#FF979797</color>
+    <color name="color_FF3385FF">#FF3385FF</color>
+    <color name="color_FFF3F3F3">#FFF3F3F3</color>
+    <color name="color_FF777777">#FF777777</color>
+    <color name="color_FFAAAAAA">#FFAAAAAA</color>
+    <color name="color_FF333333">#FF333333</color>
+    <color name="color_FFFFFFFF">#FFFFFFFF</color>
+    <color name="color_FFD8D8D8">#FFD8D8D8</color>
+    <color name="button_bg">#FF4BA4F7</color>
+    <color name="color_E0E0E0">#E0E0E0</color>
+    <color name="color_FF3535">#FF3535</color>
+    <color name="color_F2F2F2">#F2F2F2</color>
+    <color name="color_FFF2F3F5">#FFF2F3F5</color>
+
+    <color name="color_3385FF">#3385FF</color>
+    <color name="bar">#E62E3134</color>
+
+    <color name="color_FF4192FC">#FF4192FC</color>
+    <color name="color_FFC0C0C0">#FFC0C0C0</color>
+    <color name="color_FFFBFEFF">#FFFBFEFF</color>
+    <color name="color_FF666666">#FF666666</color>
+    <color name="color_dd0808">#dd0808</color>
+    <color name="color_FFF4F5F7">#FFF4F5F7</color>
+    <color name="color_FF008FFF">#FF008FFF</color>
+    <color name="color_FFFF6C6C">#FFFF6C6C</color>
+    <color name="color_FFB0B0B0">#FFB0B0B0</color>
+
+    <color name="blink_black">#000000</color>
+    <color name="blink_transparent">#a0000000</color>
+    <color name="blink_green">#006400</color>
+    <color name="blink_grey">#CFCFCE</color>
+    <color name="blink_text_grey">#333333</color>
+    <color name="blink_launcher_grey">#666666</color>
+    <color name="blink_text_green">#33CCFF</color>
+    <color name="blink_text_green1">#008B00</color>
+    <color name="blink_blue">#3A83F5</color>
+    <color name="blink_blue2">#1C86EE</color>
+    <color name="blink_grey1">#8C8C8C</color>
+    <color name="blink_orange">#FFA07A</color>
+    <color name="blink_orange1">#FF6347</color>
+    <color name="blink_yellow">#EEC900</color>
+    <color name="blink_yellow1">#EEE685</color>
+    <color name="text_color">#353535</color>
+
+    <color name="group_list_gray">#999999</color>
+
+    <color name="text_line_color">#dfdfdd</color>
+    <color name="app_color">#F55813</color>
+
+
+    <color name="daily_dailyitem_title_profile_name">#f46200</color><!--用户名称-->
+    <color name="daily_dailyitem_title_profile_time">#828282</color><!--微博时间-->
+    <color name="daily_dailyitem_title_dailycomefrom">#828282</color><!--微博来源-->
+
+    <!--显示微博转发数，评论数，赞数的bar-->
+    <color name="commentbar_bg">#FFFFFF</color><!--普通背景颜色-->
+    <color name="commentbar_highlight_bg">#f2f2f2</color><!--press的背景颜色-->
+    <color name="commentbar_top_drive">#f2f2f2</color><!--顶部的分割线  f2f2f2-->
+    <color name="commentbar_vertical_drive">#f2f2f2</color><!--竖直的分割线-->
+
+
+    <color name="daily_bottombar_bg">#FFFFFF</color><!--底部bar的背景样式-->
+    <color name="daily_bottombar_font">#929292</color><!--底部bar字体颜色-->
+    <color name="daily_bottombar_topdrive">#eaeaea</color><!--顶部分割线的颜色-->
+
+    <color name="daily_original_weiboitem_font">#333333</color><!--微博内容-->
+    <color name="daily_weiboitem_content_keyword">#507daf</color><!--关键词的颜色-->
+    <!--正在加载时候图片的占位图颜色-白天 -->
+    <color name="loadding_img_bg">#E4E4E4</color> <!--正在加载时候图片的占位图颜色-白天 -->
+
+
+    <!--空的EmptyView -->
+    <color name="empty_bg">#fcfcfc</color>
+    <color name="empty_text">#bcbcbc</color>
+
+
+    <!--单条评论的颜色-白天 -->
+    <color name="comment_item_bg">#FFFFFF</color>
+    <color name="comment_item_name">#2f2f2f</color>
+    <color name="comment_item_comefrom">#808080</color>
+    <color name="comment_item_content">#808080</color>
+    <color name="comment_item_top_drive">#f2f2f2</color>
+
+    <!--数字，包括评论，转发，点赞栏的颜色-白天 -->
+    <color name="detail_count_bg">#FFFFFF</color>
+    <color name="detail_normal_text">#828282</color>
+    <color name="detail_highlight_text">#000000</color>
+
+    <color name="origin_nor_bg">#FFFFFF</color><!--微博的普通背景颜色-->
+    <color name="origin_highlight_bg">#f2f2f2</color><!--微博的按压状态下的背景颜色-->
+
+    <!--按钮栏-白天 -->
+    <color name="rl_normal_bg">#FFFFFF</color><!--状态栏的的背景颜色-->
+    <color name="rl_highlight_bg">#f2f2f2</color><!--状态栏的的背景颜色-->
+    <color name="rl_textcolor">#111111</color>
+
+    <color name="md_blue_grey_50">#ECEFF1</color>
+    <color name="md_blue_grey_100">#CFD8DC</color>
+    <color name="md_blue_grey_200">#B0BBC5</color>
+    <color name="md_blue_grey_300">#90A4AE</color>
+    <color name="md_blue_grey_400">#78909C</color>
+    <color name="md_blue_grey_500">#607D8B</color>
+    <color name="md_blue_grey_600">#546E7A</color>
+    <color name="md_blue_grey_700">#455A64</color>
+    <color name="md_blue_grey_800">#37474F</color>
+    <color name="md_blue_grey_900">#263238</color>
+    <!--grey-->
+    <color name="md_grey_50">#FAFAFA</color>
+    <color name="md_grey_100">#F5F5F5</color>
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="md_grey_300">#E0E0E0</color>
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_grey_600">#757575</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="md_black_1000">#000000</color>
+    <color name="md_white_1000">#ffffff</color>
+    <color name="color_transparent">@android:color/transparent</color>
+    <color name="color_list_item_hover">#DFDFDD</color>
+    <!--通用背景色-->
+    <color name="common_bg">@color/white</color>
+    <!--通用触摸背景色-->
+    <color name="common_touch_bg">#E3E3E3</color>
+    <!--通用背景色-->
+    <color name="common_gray_bg">#EEEEEE</color>
+    <!--通用一级标题的颜色-->
+    <color name="common_h1">#212121</color>
+    <!--通用二级标题的颜色-->
+    <color name="common_h2">#727272</color>
+    <!--通用三级标题的颜色-->
+    <color name="common_h3">#B2B2B2</color>
+    <!--通用分割线细-->
+    <color name="common_divider_narrow">#E3E3E3</color>
+    <!--通用分割线粗-->
+    <color name="common_divider_wide">@color/color_eeeeee</color>
+
+    <color name="tip">#88303F9F</color>
+
+    <color name="light_gray">#AAAAAA</color>
+    <color name="reader_menu_bg_color">#191919</color>
+
+    <color name="color_8f8e94">#8f8e94</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_1b1b1b">#1b1b1b</color>
+    <color name="color_dddddd">#dddddd</color>
+    <color name="color_d20000">#d20000</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+    <color name="color_7f7f7f">#7f7f7f</color>
+    <color name="color_fafafa">#fafafa</color>
+    <color name="color_f8f8f8">#f8f8f8</color>
+    <color name="color_00b5795">#005795</color>
+    <color name="color_102e5f">#102e5f</color>
+    <color name="color_9b9b9">#9b9b9b</color>
+    <color name="color_refresh">#005795</color>
+    <color name="font_color_base">#4a4a4a</color>
+    <color name="tip_view_bg">#D5E8F6</color>
+    <color name="tip_view_text_color">#4592C6</color>
+    <color name="pull_refresh_bg">#F3F5F4</color>
+
+    <!--章节标题夜间颜色-->
+    <color name="chapter_title_night">#292929</color>
+    <!--章节内容夜间颜色-->
+    <color name="chapter_content_night">#444444</color>
+    <!--章节标题日间颜色-->
+    <color name="chapter_title_day">#837B63</color>
+    <!--章节内容夜间颜色-->
+    <color name="chapter_content_day">#3B3220</color>
+    <!--阅读页顶部字体颜色-->
+    <color name="book_read_top_text">#000000</color>
+    <!--阅读页底部字体颜色-->
+    <color name="book_read_bottom_text">#000000</color>
+
+    <color name="light_white">#EEEEEE</color>
+    <color name="light_black">#515151</color>
+    <color name="light_pink">#fb9090</color>
+    <color name="light_coffee">#A58D5E</color>
+
+    <color name="light_red">#EC4A48</color>
+    <color name="light_blue">#039BE5</color>
+    <color name="dark_red">#B93221</color>
+
+
+    <color name="read_theme_white">#ffffff</color>
+    <color name="read_theme_green">#bed0cf</color>
+    <color name="read_theme_yellow">#e6dbbf</color>
+    <color name="read_theme_gray">#AAAAAA</color>
+    <color name="read_theme_night">#000000</color>
+
+    <color name="orange">#DE6014</color>
+
+
+    <!-- TopBar 一系列颜色 -->
+    <color name="topbar_bg">#F8F8F9</color><!--顶部Bar的背景样式-->
+    <color name="topbar_center">#545454</color><!--顶部Bar字体颜色-->
+    <color name="topbar_bottom_drive">#e3e3e3</color><!--顶部Bar的底部分割线-->
+    <color name="topbar_center_highlight_bg">#e7e7e7</color><!--顶部Bar的分组的按压颜色-->
+    <color name="topbar_leftright_text">#4c4c4c</color><!--顶部Bar的左右字体的颜色-->
+    <color name="topbar_leftright_text_highlight">#f68008</color><!--顶部Bar的左右字体的高亮颜色-->
+
+
+    <color name="color_48baf3">#48BAF3</color>
+    <color name="transparent_70_black">#4C000000</color>
+    <color name="color_e5e5e5">#E5E5E5</color>
+
+</resources>

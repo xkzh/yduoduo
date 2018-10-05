@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">影多多开源项目</string>
+
+
+    <string name="tab_dianying">电影</string>
+    <string name="tab_yingshiju">电视剧</string>
+    <string name="tab_zongyi">综艺</string>
+    <string name="tab_dongman">动漫</string>
+    <string name="tab_zhibo">直播</string>
+
+
+    <string name="text_xieyi"><u>软件服务协议及免责声明</u></string>
+    <string name="text_mianze"><u>免责声明</u></string>
+    <string name="net_daili">检测到您的手机设置了网络代理服务，请您取消代理后重新打开，10s后将退出应用</string>
+
+    <string name="net_unavailable">网络不可用</string>
+    <string name="refresh_pull_down_text">下拉推荐</string>
+    <string name="refresh_release_text">松开推荐</string>
+    <string name="refresh_ing_text">获取中</string>
+
+    <string name="add_tag">添加</string>
+    <string name="params_error">参数错误</string>
+
+    <string name="txt_type0">全部</string>
+    <string name="txt_type1">动作</string>
+    <string name="txt_type2">喜剧</string>
+    <string name="txt_type3">爱情</string>
+    <string name="txt_type4">科幻</string>
+    <string name="txt_type5">剧情</string>
+    <string name="txt_type6">悬疑</string>
+    <string name="txt_type7">文艺</string>
+    <string name="txt_type8">战争</string>
+    <string name="txt_type9">恐怖</string>
+    <string name="txt_type10">灾难</string>
+    <string name="txt_type20">记录</string>
+    <string name="txt_type21">伦理</string>
+    <string name="txt_type28">福利</string>
+
+    <string name="txt_type11">华语</string>
+    <string name="txt_type12">欧美</string>
+    <string name="txt_type13">日韩</string>
+    <string name="txt_type14">经典</string>
+    <string name="txt_type15">热门</string>
+    <string name="txt_type16">最新</string>
+    <string name="txt_type17">大陆</string>
+    <string name="txt_type18">台湾</string>
+    <string name="txt_type19">其他</string>
+
+    <string name="txt_type22">国产</string>
+    <string name="txt_type23">港台</string>
+    <string name="txt_type24">欧美</string>
+    <string name="txt_type25">日剧</string>
+    <string name="txt_type26">韩剧</string>
+    <string name="txt_type27">泰剧</string>
+    <string name="agreement">
+在使用影多多软件应用（以下简称“本应用”）前，请您务必仔细阅读并透彻理解本声明。您可以选择不使用该应用的服务，但如果您一旦使用，那么将被视为对本声明全部内容的理解与认可。
+1、本应用呈现的内容均由自动抓取技术获得，任何未禁链的网站、网页等均可能会被自动抓取。如果不想被本应用收录（即不被搜索到），请及时在网站中根据拒绝蜘蛛协议（Robots Exclusion Protocol）加注拒绝收录的标记。否则，将依照搜索技术或行业惯例视其为可收录网站。
+2、本应用呈现的内容仅为临时再现相关链接信息之需，任何单位或个人认为本应用结果中显示的第三方网站链接或有关内容侵犯了自己的合法权利，请及时向我们说明情况，本应用将会依法及时断开或屏蔽相关链接。
+3、本应用提供搜索功能，搜索链接到的第三方网站及其内容均系他人制作或提供，本应用不保证该第三方网站上的任何内容的合法性和安全性，并将不承担任何连带责任。
+4、用户使用搜索引擎的结果自行承担风险。本应用不做任何形式的保证：不保证搜索结果满足用户的要求，不保证搜索服务不中断，不保证搜索结果的安全性、正确性、及时性、合法性。因网络、通讯、第三方网站等任何原因而导致用户不能正常使用本应用服务，本应用不承担任何法律责任。
+5、本应用通过加固或查杀病毒等技术手段在极大程度上保证软件的安全性，用户因使用本应用而遭致的损失、意外等（包括但不限于因点击、访问、链接搜索结果或下载被搜索链接到的第三方网站内容），或侵犯第三方权利，均与本应用无关，本应用亦不承担任何法律责任。
+
+
+    </string>
+</resources>

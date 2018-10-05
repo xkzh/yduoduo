@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tuijian"
+        android:icon="@drawable/ic_dy"
+        android:title="@string/tab_dianying" />
+
+    <item
+        android:id="@+id/navigation_shujia"
+        android:icon="@drawable/ic_dsj"
+        android:title="@string/tab_yingshiju" />
+
+    <item
+        android:id="@+id/navigation_bangdan"
+        android:icon="@drawable/ic_zy"
+        android:title="@string/tab_zongyi"/>
+    <item
+        android:id="@+id/navigation_zhuti"
+        android:icon="@drawable/ic_dm"
+        android:title="@string/tab_dongman"/>
+</menu>

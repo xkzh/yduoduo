@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.share.open_source.ui.activity.PlayContentActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <com.share.open_source.widget.X5WebView
+            android:id="@+id/x5_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scrollbars="none" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="30dp"
+            >
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:padding="12dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="6dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/back_white"
+                />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:textSize="17sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_width="200dp"
+                android:singleLine="true"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                />
+
+            <TextView
+                android:id="@+id/tv_share"
+                android:textSize="14sp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginRight="12dp"
+                android:layout_width="wrap_content"
+                android:singleLine="true"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="分享"
+                />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+
+
+
+</RelativeLayout>

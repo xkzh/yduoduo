@@ -1,0 +1,177 @@
+apply plugin: 'com.android.application'
+
+//使用greendao
+apply plugin: 'org.greenrobot.greendao'
+
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "com.share.open_source"
+        minSdkVersion 18
+        targetSdkVersion 22
+        versionCode 20180727
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+
+        ndk {
+            abiFilters 'armeabi'
+        }
+
+        javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
+    }
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == 'com.android.support') {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion '27.1.1'
+                }
+            }
+
+        }
+    }
+
+    packagingOptions {
+
+        exclude 'META-INF/rxjava.properties'
+    }
+
+    lintOptions { checkReleaseBuilds false }
+
+    dexOptions {
+        javaMaxHeapSize '4g'
+        preDexLibraries = false
+    }
+
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+}
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile('com.android.support:design:26.1.0', {
+        exclude group: 'com.android.support:support-core-ui-27.1.1'
+    })
+
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support:cardview-v7:26.1.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'com.squareup.retrofit2:converter-scalars:2.1.0'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+    compile 'io.reactivex:rxandroid:1.2.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.github.zhaokaiqiang.klog:library:1.6.0'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.40'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+
+    compile 'com.github.bumptech.glide:okhttp3-integration:1.4.0@aar'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.github.chaychan:SlideCloseLib:1.0.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.github.nukc.stateview:library:1.2.1'
+    compile 'com.github.hackware1993:MagicIndicator:1.4.0'
+    compile 'com.yinglan.alphatabs:library:1.0.2'
+    compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+    compile 'com.blankj:utilcode:1.7.1'
+    compile 'com.github.hackware1993:MagicIndicator:1.4.0'
+    compile 'com.github.nukc.stateview:library:1.2.1'
+    compile 'cn.bingoogolapple:bga-refreshlayout:1.0.7@aar'
+
+    compile 'cn.bingoogolapple:bga-swipebacklayout:1.1.9@aar'
+    compile('com.yarolegovich:discrete-scrollview:1.3.0') {
+        exclude group: 'com.android.support'
+    }
+
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5'
+
+    compile 'me.yuqirong:cardswipelayout:1.0.0'
+    compile 'com.qianwen:update-app:3.5.2'
+
+    // 升级新版本自定义
+    compile 'com.qianwen:okhttp-utils:3.8.0'
+    compile 'com.afollestad.material-dialogs:core:0.9.4.3'
+    compile 'org.greenrobot:greendao:3.2.0'
+    compile 'com.commit451:PhotoView:1.2.4'
+    compile 'org.ccil.cowan.tagsoup:tagsoup:1.2.1'
+    compile files('libs/umeng-common-1.5.3.jar')
+    compile files('libs/umeng-share-core-6.9.2.jar')
+    compile files('libs/umeng-share-QQ-simplify-6.9.2.jar')
+    compile files('libs/umeng-share-wechat-simplify-6.9.2.jar')
+    compile files('libs/umeng-shareboard-widget-6.9.2.jar')
+    compile files('libs/umeng-sharetool-6.9.2.jar')
+
+    // 洛米
+    compile files('libs/luomi_9.0.9.aar')
+
+    compile 'pub.devrel:easypermissions:0.4.3'
+
+    //Alerter
+    compile 'com.tapadoo.android:alerter:2.0.2'
+
+    compile 'org.jsoup:jsoup:1.9.2'
+    compile 'jp.wasabeef:picasso-transformations:2.1.2'
+    compile 'com.shizhefei:LargeImageView:1.1.0'
+    compile 'com.github.chrisbanes:PhotoView:2.1.4'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'io.reactivex.rxjava2:rxjava:2.1.0'
+
+    // 图片幻灯片效果
+    compile 'com.flaviofaria:kenburnsview:1.0.7'
+    compile 'com.crazysunj:cardslideview:1.3.1'
+    compile 'com.umeng.sdk:analytics:latest.integration'
+
+    compile files('libs/tbs_sdk_thirdapp_v3.6.0.1249_43610_sharewithdownload_withoutGame_obfs_20180608_114954.jar')
+    compile 'com.github.Othershe:NiceDialog:1.1.4'
+    compile 'com.shuyu:GSYVideoPlayer:5.0.2'
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="sub_tabs">
+        <item>全部</item>
+        <item>下载中</item>
+        <item>已完成</item>
+    </string-array>
+
+</resources>
