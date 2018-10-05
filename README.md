@@ -3,6 +3,7 @@
 
 #### 项目介绍
 影多多是一款视频类的APP,集电影、电视剧、综艺、动漫各类资源于一体，百万大片随意看，海量资源随意搜，下载体验链接  https://www.pgyer.com/Qgyw         绿色安全，畅享视听。欢迎加入影多多官方群 823516112
+
 ![Alt text](/img/256.png)
 #### 扫码下载
 ![Alt text](/img/er_combine.png)
@@ -36,43 +37,3 @@ Retrofit2：是一个 Square 开发的类型安全的 REST 安卓客户端请求
 加入影多多官方群可以联系到我！ 一群、二群已满，请加入三群： 823516112
 #### LICENSE
 [LICENSE](http://www.apache.org/licenses/LICENSE-2.0.html)
-
-# yduoduo_opensource
-
-#### 项目介绍
-{**以下是码云平台说明，您可以替换为您的项目简介**
-码云是开源中国推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 使用说明
-
-1. xxxx
-2. xxxx
-3. xxxx
-
-#### 参与贡献
-
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
